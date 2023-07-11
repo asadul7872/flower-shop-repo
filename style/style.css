@@ -23,6 +23,7 @@
     /* background-image: url('../img/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right; */
+    margin-bottom: 130px;
 }
 .banner{
     padding: 30px 200px 0px 150px;
@@ -59,17 +60,21 @@
     margin-bottom: 30px;
 }
 /* main section style */
-main{
+/* main{
     max-width: 1140px;
     margin: 0 auto;
-}
+} */
 
 /* featured section style */
 .featured{
     padding: 20px;
     border-radius: 10px;
-    background: #FFF8F3;
-    margin-top: 130px;
+    background: #FFF;
+   
+    max-width: 1140px;
+    margin: 0 auto;
+
+
    
 }
 .sectionTitle{
@@ -80,9 +85,12 @@ main{
     margin-bottom: 20px;
 }
 .sectionPDes{
-    color: #757575;
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+   
 
    
 }
@@ -112,6 +120,68 @@ main{
     background: rgba(167, 33, 98, 0.15);
 }
  /* hot deal section */
- 
 
+.hotDealSection{
+    background: rgba(229, 84, 115, 0.10);
+    margin-top: 120px;
+    width: 1900px;
+    height: 600px;
+}
+/* .hotDealContainer{
+    max-width: 650px;
+    width: 1922px;
+height: 620px;
+} */
+
+.hotDeal{
+    /* width: 19202px;
+    height: 620px; */
+    padding: 100px 400px 0px 350px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.hotDealTitle{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.hotDealDes{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hotDealPic{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 50px;
+
+}
+/* instagram section */
+
+.instagram{
+    padding: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.instagramContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.instagramContainerImg{
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    /* border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15); */
+}
 
