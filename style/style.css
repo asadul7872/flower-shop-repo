@@ -187,7 +187,7 @@ height: 620px;
 /* latest Deal section */
 .latestDeal{
     border-radius: 8px;
-    background-image: url('img/Rectangle\ 9.png');
+    background-image: url('/img/Rectangle\ 9.png');
     height: 405px;
     padding: 20px;
     max-width: 1400px;
