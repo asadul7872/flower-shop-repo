@@ -218,3 +218,32 @@ height: 620px;
   margin-left: 350px;
 
 }
+
+/* footer style */
+.footer{
+    width: 1900px;
+    height: 350px;
+    background: #111010;
+    text-align: center;
+    margin-top: 120px;
+}
+.footerTitle{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+.footerDes{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.footerCopy{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
